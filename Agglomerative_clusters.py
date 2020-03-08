@@ -90,6 +90,8 @@ def reduceClusters_fullComparison(g, Clusters, nFinalClusters):
 		    better_i_value = mod_i + mod_j - mod_iUj
 
 	    merge_Clusters(Clusters, better_i, j, f)
+	
+	return Clusters
 
 
 def reduceCLusters_simple(Clusters, nFinalClusters):
